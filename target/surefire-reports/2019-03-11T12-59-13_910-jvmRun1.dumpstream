@@ -1,0 +1,518 @@
+# Created at 2019-03-11T12:59:15.693
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2019-03-11T12:59:16.446
+Unexpected IOException with stream: 2019-03-11 12:59:16.445  INFO 9600 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e5851d6e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+
+# Created at 2019-03-11T12:59:16.924
+Unexpected IOException with stream: 2019-03-11 12:59:16.923  INFO 9600 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2019-03-11T12:59:17.150
+Unexpected IOException with stream: 2019-03-11 12:59:17.150  INFO 9600 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2019-03-11T12:59:17.151
+Unexpected IOException with stream: 2019-03-11 12:59:17.151  INFO 9600 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2019-03-11T12:59:17.162
+Unexpected IOException with stream: 2019-03-11 12:59:17.161  INFO 9600 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
+
+
+# Created at 2019-03-11T12:59:17.192
+Unexpected IOException with stream: 2019-03-11 12:59:17.192  INFO 9600 --- [           main] c.o.r.controller.TestReviewController    : Started TestReviewController in 2.173 seconds (JVM running for 3.016)
+
+
+# Created at 2019-03-11T12:59:17.200
+Unexpected IOException: 5,1,com.org.review.controller.TestReviewController,testGetSpecificReview(com.org.review.controller.TestReviewController),null,null,null
+
+
+# Created at 2019-03-11T12:59:17.299
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.299
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2019-03-11T12:59:17.300
+Unexpected IOException with stream:       HTTP Method = GET
+
+
+# Created at 2019-03-11T12:59:17.301
+Unexpected IOException with stream:       Request URI = /api/reviews/getSpecificReview/1
+
+
+# Created at 2019-03-11T12:59:17.302
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2019-03-11T12:59:17.302
+Unexpected IOException with stream:           Headers = [Accept:"application/json"]
+
+
+# Created at 2019-03-11T12:59:17.303
+Unexpected IOException with stream:              Body = <no character encoding set>
+
+
+# Created at 2019-03-11T12:59:17.303
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2019-03-11T12:59:17.304
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.304
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2019-03-11T12:59:17.305
+Unexpected IOException with stream:              Type = com.org.review.controller.ReviewController
+
+
+# Created at 2019-03-11T12:59:17.305
+Unexpected IOException with stream:            Method = public org.springframework.http.ResponseEntity<com.org.review.model.Review> com.org.review.controller.ReviewController.getSpecificReview(int) throws com.org.review.exception.ReviewNotFoundException
+
+
+# Created at 2019-03-11T12:59:17.306
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.307
+Unexpected IOException with stream: Async:
+
+
+# Created at 2019-03-11T12:59:17.307
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2019-03-11T12:59:17.307
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2019-03-11T12:59:17.308
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.309
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2019-03-11T12:59:17.309
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2019-03-11T12:59:17.310
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.310
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2019-03-11T12:59:17.311
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2019-03-11T12:59:17.311
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2019-03-11T12:59:17.312
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2019-03-11T12:59:17.312
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.313
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2019-03-11T12:59:17.313
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2019-03-11T12:59:17.314
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.315
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2019-03-11T12:59:17.315
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2019-03-11T12:59:17.315
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2019-03-11T12:59:17.316
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8"]
+
+
+# Created at 2019-03-11T12:59:17.316
+Unexpected IOException with stream:      Content type = application/json;charset=UTF-8
+
+
+# Created at 2019-03-11T12:59:17.317
+Unexpected IOException with stream:              Body = {"id":501,"productId":101,"rating":3,"comments":"Good"}
+
+
+# Created at 2019-03-11T12:59:17.318
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2019-03-11T12:59:17.318
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2019-03-11T12:59:17.319
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2019-03-11T12:59:17.326
+Unexpected IOException: 8,1,com.org.review.controller.TestReviewController,testGetSpecificReview(com.org.review.controller.TestReviewController),null,Expected matches actual expected:<[com.org.review.model.Review@a5bbaec]> but was:<[{"id":501\002C"productId":101\002C"rating":3\002C"comments":"Good"}]>,null,Expected matches actual expected:<[com.org.review.model.Review@a5bbaec]> but was:<[{"id":501\002C"productId":101\002C"rating":3\002C"comments":"Good"}]>,TestReviewController.testGetSpecificReview:57 Expected matches actual expected:<[com.org.review.model.Review@a5bbaec]> but was:<[{"id":501\002C"productId":101\002C"rating":3\002C"comments":"Good"}]>,org.junit.ComparisonFailure: Expected matches actual expected:<[com.org.review.model.Review@a5bbaec]> but was:<[{"id":501\002C"productId":101\002C"rating":3\002C"comments":"Good"}]>\000A\0009at com.org.review.controller.TestReviewController.testGetSpecificReview(TestReviewController.java:57)\000A
+
+
+# Created at 2019-03-11T12:59:17.328
+Unexpected IOException: 5,1,com.org.review.controller.TestReviewController,testGetReviews(com.org.review.controller.TestReviewController),null,null,null
+
+
+# Created at 2019-03-11T12:59:17.330
+Unexpected IOException with stream: com.org.review.model.Review@31e2232f
+
+# Created at 2019-03-11T12:59:17.331
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.331
+Unexpected IOException with stream: com.org.review.model.Review@1806bc4c
+
+# Created at 2019-03-11T12:59:17.332
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.333
+Unexpected IOException with stream: com.org.review.model.Review@462e1e64
+
+# Created at 2019-03-11T12:59:17.333
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.337
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.338
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2019-03-11T12:59:17.339
+Unexpected IOException with stream:       HTTP Method = GET
+
+
+# Created at 2019-03-11T12:59:17.339
+Unexpected IOException with stream:       Request URI = /api/reviews/getSpecificReview/1
+
+
+# Created at 2019-03-11T12:59:17.340
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2019-03-11T12:59:17.341
+Unexpected IOException with stream:           Headers = [Accept:"application/json"]
+
+
+# Created at 2019-03-11T12:59:17.341
+Unexpected IOException with stream:              Body = <no character encoding set>
+
+
+# Created at 2019-03-11T12:59:17.342
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2019-03-11T12:59:17.343
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.343
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2019-03-11T12:59:17.344
+Unexpected IOException with stream:              Type = com.org.review.controller.ReviewController
+
+
+# Created at 2019-03-11T12:59:17.344
+Unexpected IOException with stream:            Method = public org.springframework.http.ResponseEntity<com.org.review.model.Review> com.org.review.controller.ReviewController.getSpecificReview(int) throws com.org.review.exception.ReviewNotFoundException
+
+
+# Created at 2019-03-11T12:59:17.345
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.345
+Unexpected IOException with stream: Async:
+
+
+# Created at 2019-03-11T12:59:17.346
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2019-03-11T12:59:17.346
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2019-03-11T12:59:17.347
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.347
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2019-03-11T12:59:17.348
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2019-03-11T12:59:17.348
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.349
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2019-03-11T12:59:17.349
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2019-03-11T12:59:17.350
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2019-03-11T12:59:17.351
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2019-03-11T12:59:17.351
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.352
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2019-03-11T12:59:17.352
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2019-03-11T12:59:17.353
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.353
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2019-03-11T12:59:17.353
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2019-03-11T12:59:17.354
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2019-03-11T12:59:17.354
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8"]
+
+
+# Created at 2019-03-11T12:59:17.355
+Unexpected IOException with stream:      Content type = application/json;charset=UTF-8
+
+
+# Created at 2019-03-11T12:59:17.355
+Unexpected IOException with stream:              Body = {"id":501,"productId":101,"rating":3,"comments":"Good"}
+
+
+# Created at 2019-03-11T12:59:17.356
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2019-03-11T12:59:17.356
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2019-03-11T12:59:17.357
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2019-03-11T12:59:17.357
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.358
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2019-03-11T12:59:17.359
+Unexpected IOException with stream:       HTTP Method = GET
+
+
+# Created at 2019-03-11T12:59:17.359
+Unexpected IOException with stream:       Request URI = /api/reviews/getReviews
+
+
+# Created at 2019-03-11T12:59:17.360
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2019-03-11T12:59:17.361
+Unexpected IOException with stream:           Headers = [Accept:"application/json"]
+
+
+# Created at 2019-03-11T12:59:17.361
+Unexpected IOException with stream:              Body = <no character encoding set>
+
+
+# Created at 2019-03-11T12:59:17.362
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2019-03-11T12:59:17.363
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.363
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2019-03-11T12:59:17.364
+Unexpected IOException with stream:              Type = com.org.review.controller.ReviewController
+
+
+# Created at 2019-03-11T12:59:17.364
+Unexpected IOException with stream:            Method = public org.springframework.http.ResponseEntity<java.util.List<com.org.review.model.Review>> com.org.review.controller.ReviewController.getReviews()
+
+
+# Created at 2019-03-11T12:59:17.365
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.366
+Unexpected IOException with stream: Async:
+
+
+# Created at 2019-03-11T12:59:17.366
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2019-03-11T12:59:17.367
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2019-03-11T12:59:17.367
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.368
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2019-03-11T12:59:17.369
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2019-03-11T12:59:17.369
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.370
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2019-03-11T12:59:17.370
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2019-03-11T12:59:17.371
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2019-03-11T12:59:17.371
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2019-03-11T12:59:17.372
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.372
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2019-03-11T12:59:17.373
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2019-03-11T12:59:17.373
+Unexpected IOException with stream: 
+
+
+# Created at 2019-03-11T12:59:17.374
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2019-03-11T12:59:17.374
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2019-03-11T12:59:17.375
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2019-03-11T12:59:17.375
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8"]
+
+
+# Created at 2019-03-11T12:59:17.376
+Unexpected IOException with stream:      Content type = application/json;charset=UTF-8
+
+
+# Created at 2019-03-11T12:59:17.376
+Unexpected IOException with stream:              Body = [{"id":501,"productId":101,"rating":3,"comments":"Good"},{"id":502,"productId":102,"rating":2,"comments":"Average"},{"id":503,"productId":102,"rating":1,"comments":"Bad"}]
+
+
+# Created at 2019-03-11T12:59:17.377
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2019-03-11T12:59:17.377
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2019-03-11T12:59:17.378
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2019-03-11T12:59:17.380
+Unexpected IOException: 8,1,com.org.review.controller.TestReviewController,testGetReviews(com.org.review.controller.TestReviewController),null,Expected matches actual expected:<[{"id":[1\002C"name":"Asus ZenFone"\002C"description":"Mobile Phone in range of 15k"\002C"price":15000.0\002C"type":"Mobile"}\002C{"id":2\002C"name":"Whirlpool 190L"\002C"description":"Whilrpool 190L Refrigerator"\002C"price":25000.0\002C"type":"Refrigerator"}\002C{"id":3\002C"name":"Samsung TV"\002C"description":"Samsung 42 inch TV"\002C"price":20000.0\002C"type":"Television]"}]> but was:<[{"id":[501\002C"productId":101\002C"rating":3\002C"comments":"Good"}\002C{"id":502\002C"productId":102\002C"rating":2\002C"comments":"Average"}\002C{"id":503\002C"productId":102\002C"rating":1\002C"comments":"Bad]"}]>,null,Expected matches actual expected:<[{"id":[1\002C"name":"Asus ZenFone"\002C"description":"Mobile Phone in range of 15k"\002C"price":15000.0\002C"type":"Mobile"}\002C{"id":2\002C"name":"Whirlpool 190L"\002C"description":"Whilrpool 190L Refrigerator"\002C"price":25000.0\002C"type":"Refrigerator"}\002C{"id":3\002C"name":"Samsung TV"\002C"description":"Samsung 42 inch TV"\002C"price":20000.0\002C"type":"Television]"}]> but was:<[{"id":[501\002C"productId":101\002C"rating":3\002C"comments":"Good"}\002C{"id":502\002C"productId":102\002C"rating":2\002C"comments":"Average"}\002C{"id":503\002C"productId":102\002C"rating":1\002C"comments":"Bad]"}]>,TestReviewController.testGetReviews:44 Expected matches actual expected:<[{"id":[1\002C"name":"Asus ZenFone"\002C"description":"Mobile Phone in range of 15k"\002C"price":15000.0\002C"type":"Mobile"}\002C{"id":2\002C"name":"Whirlpool 190L"\002C"description":"Whilrpool 190L Refrigerator"\002C"price":25000.0\002C"type":"Refrigerator"}\002C{"id":3\002C"name":"Samsung TV"\002C"description":"Samsung 42 inch TV"\002C"price":20000.0\002C"type":"Television]"}]> but was:<[{"id":[501\002C"productId":101\002C"rating":3\002C"comments":"Good"}\002C{"id":502\002C"productId":102\002C"rating":2\002C"comments":"Average"}\002C{"id":503\002C"productId":102\002C"rating":1\002C"comments":"Bad]"}]>,org.junit.ComparisonFailure: Expected matches actual expected:<[{"id":[1\002C"name":"Asus ZenFone"\002C"description":"Mobile Phone in range of 15k"\002C"price":15000.0\002C"type":"Mobile"}\002C{"id":2\002C"name":"Whirlpool 190L"\002C"description":"Whilrpool 190L Refrigerator"\002C"price":25000.0\002C"type":"Refrigerator"}\002C{"id":3\002C"name":"Samsung TV"\002C"description":"Samsung 42 inch TV"\002C"price":20000.0\002C"type":"Television]"}]> but was:<[{"id":[501\002C"productId":101\002C"rating":3\002C"comments":"Good"}\002C{"id":502\002C"productId":102\002C"rating":2\002C"comments":"Average"}\002C{"id":503\002C"productId":102\002C"rating":1\002C"comments":"Bad]"}]>\000A\0009at com.org.review.controller.TestReviewController.testGetReviews(TestReviewController.java:44)\000A
+
+
+# Created at 2019-03-11T12:59:17.381
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.org.review.controller.TestReviewController,null,null,null
+
+

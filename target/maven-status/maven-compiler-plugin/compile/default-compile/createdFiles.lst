@@ -1,0 +1,12 @@
+com\org\review\model\ErrorResponse.class
+com\org\review\logging\LoggingAspect.class
+com\org\review\exception\ReviewNotFoundException.class
+com\org\review\service\IReviewService.class
+com\org\review\repository\IReviewRepository.class
+com\org\review\exception\GlobalExceptionHandler.class
+com\org\review\ReviewMsApplication.class
+com\org\review\controller\ReviewController.class
+com\org\review\service\ReviewServiceImpl.class
+com\org\review\model\Review.class
+com\org\review\SwaggerConfig.class
+com\org\review\logging\PointCuts.class
