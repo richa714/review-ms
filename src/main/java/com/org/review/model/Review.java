@@ -17,7 +17,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Review {
+public class Review{
 
 	@Id
 	// @GeneratedValue(strategy = GenerationType.SEQUENCE, generator =

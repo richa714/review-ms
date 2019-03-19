@@ -25,10 +25,11 @@ public class ReviewController {
 	@Autowired
 	IReviewService reviewService;
 
-	@GetMapping("/getReviews")
+	
+	@GetMapping("/")
 	public ResponseEntity<List<Review>> getReviews(@PathVariable int productId) {
 		List<Review> reviewList = reviewService.getReviews(productId);
-		//reviewList.forEach(System.out::println);
+		// reviewList.forEach(System.out::println);
 		return new ResponseEntity<List<Review>>(reviewList, HttpStatus.OK);
 
 	}
@@ -39,13 +40,13 @@ public class ReviewController {
 //		return new ResponseEntity<Review>(review, HttpStatus.OK);
 //	}
 
-	@PostMapping("/addReview")
-	public ResponseEntity<String> addReview(@PathVariable int productId,@RequestBody Review review) {
-		reviewService.addReview(productId,review);
-		return new ResponseEntity<String>("New Review Added Successfully", HttpStatus.OK);
+	@PostMapping("/")
+	public ResponseEntity<String> addReview(@PathVariable int productId, @RequestBody Review review) {
+		reviewService.addReview(productId, review);
+		return new ResponseEntity<String>("New Review Added Successfully", HttpStatus.CREATED);
 	}
 
-	@PutMapping("/updateReview/{reviewId}")
+	@PutMapping("/{reviewId}")
 	public ResponseEntity<String> updateReview(@RequestBody Review review, @PathVariable int reviewId)
 			throws ReviewNotFoundException {
 		reviewService.updateReview(review, reviewId);
@@ -53,7 +54,7 @@ public class ReviewController {
 
 	}
 
-	@DeleteMapping("/deleteReview/{reviewId}")
+	@DeleteMapping("/{reviewId}")
 	public ResponseEntity<String> deleteReview(@PathVariable int reviewId) throws ReviewNotFoundException {
 		reviewService.deleteReview(reviewId);
 		return new ResponseEntity<String>("Review Deleted Successfully", HttpStatus.OK);
