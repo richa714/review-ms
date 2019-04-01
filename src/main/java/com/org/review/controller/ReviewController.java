@@ -3,6 +3,10 @@ package com.org.review.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.Link;
+import org.springframework.hateoas.Resource;
+import org.springframework.hateoas.Resources;
+import org.springframework.hateoas.mvc.ControllerLinkBuilder;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -26,10 +30,13 @@ public class ReviewController {
 	IReviewService reviewService;
 
 	
+
 	@GetMapping("/")
 	public ResponseEntity<List<Review>> getReviews(@PathVariable int productId) {
 		List<Review> reviewList = reviewService.getReviews(productId);
-		// reviewList.forEach(System.out::println);
+		//Link reviewSelfLink = ControllerLinkBuilder.linkTo(ReviewController.class).slash(productId).withSelfRel();
+		//Resources<Review> resource = new Resources<>(reviewList, reviewSelfLink);
+		//return ResponseEntity.ok(resource);
 		return new ResponseEntity<List<Review>>(reviewList, HttpStatus.OK);
 
 	}
@@ -43,21 +50,35 @@ public class ReviewController {
 	@PostMapping("/")
 	public ResponseEntity<String> addReview(@PathVariable int productId, @RequestBody Review review) {
 		reviewService.addReview(productId, review);
-		return new ResponseEntity<String>("New Review Added Successfully", HttpStatus.CREATED);
+		//Link reviewSelfLink = ControllerLinkBuilder.linkTo(ReviewController.class).slash(productId).withSelfRel();
+		//Resource<String> resource = new Resource<String>("New Review Added Successfully", reviewSelfLink);
+		//return ResponseEntity.ok(resource);
+		 return new ResponseEntity<String>("New Review Added Successfully",
+		 HttpStatus.CREATED);
 	}
 
 	@PutMapping("/{reviewId}")
-	public ResponseEntity<String> updateReview(@RequestBody Review review, @PathVariable int reviewId)
-			throws ReviewNotFoundException {
+	public ResponseEntity<String> updateReview(@RequestBody Review review, @PathVariable int reviewId,
+			@PathVariable int productId) throws ReviewNotFoundException {
 		reviewService.updateReview(review, reviewId);
-		return new ResponseEntity<String>("Review Updated Successfully", HttpStatus.OK);
+		//Link selfLink = ControllerLinkBuilder.linkTo(ReviewController.class).slash(productId).slash(reviewId)
+			//	.withSelfRel();
+		//Resource<String> resource = new Resource<String>("Review Updated Successfully", selfLink);
+		//return ResponseEntity.ok(resource);
+		 return new ResponseEntity<String>("Review Updated Successfully",
+		 HttpStatus.OK);
 
 	}
 
 	@DeleteMapping("/{reviewId}")
-	public ResponseEntity<String> deleteReview(@PathVariable int reviewId) throws ReviewNotFoundException {
+	public ResponseEntity<String> deleteReview(@PathVariable int reviewId, @PathVariable int productId)
+			throws ReviewNotFoundException {
 		reviewService.deleteReview(reviewId);
-		return new ResponseEntity<String>("Review Deleted Successfully", HttpStatus.OK);
+		//Link selfLink = ControllerLinkBuilder.linkTo(ReviewController.class).slash(productId).slash(reviewId).withSelfRel();
+		//Resource<String> resource = new Resource<String>("Review Deleted Successfully", selfLink);
+		//return ResponseEntity.ok(resource);
+		 return new ResponseEntity<String>("Review Deleted Successfully",
+		 HttpStatus.OK);
 
 	}
 

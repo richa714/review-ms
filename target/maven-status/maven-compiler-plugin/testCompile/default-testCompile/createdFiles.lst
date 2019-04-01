@@ -1,5 +1,0 @@
-com\org\review\ReviewIntegrationTest.class
-com\org\review\helper\ReviewHelper.class
-com\org\review\controller\TestReviewController.class
-com\org\review\ReviewApplicationTests.class
-com\org\review\service\TestReviewService.class
